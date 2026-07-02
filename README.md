@@ -5,7 +5,7 @@
 
 Este proyecto consiste en un gestor de archivos desarrollado en PHP utilizando Programación Orientada a Objetos (POO). El sistema permite a los usuarios subir archivos al servidor, visualizar un listado de los archivos almacenados, descargarlos y eliminarlos de forma segura.
 
-El proyecto fue desarrollado como parte de la asignatura de Desarrollo Web y aplica buenas prácticas de programación y medidas de seguridad para el manejo de archivos.
+El proyecto aplica buenas prácticas de programación y medidas de seguridad para el manejo de archivos.
 
 ---
 
