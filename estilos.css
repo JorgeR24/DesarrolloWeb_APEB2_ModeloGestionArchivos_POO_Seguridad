@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    background:#f4f6f9;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    font-size:2.5rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.1rem;
+}
+
+nav{
+    background:white;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    padding:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+nav a{
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#1d4ed8;
+}
+
+.contenedor{
+    width:90%;
+    max-width:1000px;
+    margin:35px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+h2{
+    margin-bottom:20px;
+    color:#2563eb;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+input[type=file]{
+    padding:12px;
+    border:2px dashed #2563eb;
+    border-radius:10px;
+    margin-bottom:20px;
+    background:#f8fbff;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#1d4ed8;
+    transform:translateY(-2px);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th{
+    background:#2563eb;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:14px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+tr:hover{
+    background:#f5f8ff;
+}
+
+a{
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover{
+    color:#1d4ed8;
+}
+
+footer{
+    margin-top:50px;
+    background:#1e293b;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+    .contenedor{
+        width:95%;
+        padding:20px;
+    }
+    table{
+        font-size:14px;
+    }
+    header h1{
+        font-size:2rem;
+    }
+}
+
+.mensaje{
+    margin-bottom:20px;
+    padding:15px 20px;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:600;
+}
+
+.success{
+    background:#d1fae5;
+    color:#065f46;
+    border-left:6px solid #10b981;
+}
+
+.error{
+    background:#fee2e2;
+    color:#991b1b;
+    border-left:6px solid #dc2626;
+}
